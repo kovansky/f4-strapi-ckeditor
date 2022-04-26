@@ -1,0 +1,28 @@
+{
+  "name": "f4-ckeditor",
+  "version": "0.0.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "f4-ckeditor",
+    "description": "Description of f4-ckeditor plugin",
+    "kind": "plugin"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-react": "^5.0.0",
+    "@strapi/helper-plugin": "^4.1.8",
+    "strapi-ckeditor-build": "N:\\Programming\\js\\strapi-ckeditor-build"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
