@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@ckeditor/ckeditor5-react", "virtual:93f417c8c15c8444d6a489787bfc1c0cace2d3ad85213b2df90a9c123bb8fe4eec09173728f9f49e997894c57b316058eedc9534727cda5c8ab676abc20d3ccd#npm:5.0.0"],\
             ["@strapi/helper-plugin", "virtual:93f417c8c15c8444d6a489787bfc1c0cace2d3ad85213b2df90a9c123bb8fe4eec09173728f9f49e997894c57b316058eedc9534727cda5c8ab676abc20d3ccd#npm:4.1.8"],\
-            ["strapi-ckeditor-build", "file:/N%3A/Programming/js/strapi-ckeditor-build#/N%3A/Programming/js/strapi-ckeditor-build::hash=db8dfc&locator=f4-ckeditor%40workspace%3A."]\
+            ["strapi-ckeditor-build", "https://github.com/kovansky/strapi-ckeditor-build.git#commit=8cc1482a494cf93bb6b3a08b3a0a3d518a772fdb"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -770,7 +770,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["f4-ckeditor", "workspace:."],\
             ["@ckeditor/ckeditor5-react", "virtual:93f417c8c15c8444d6a489787bfc1c0cace2d3ad85213b2df90a9c123bb8fe4eec09173728f9f49e997894c57b316058eedc9534727cda5c8ab676abc20d3ccd#npm:5.0.0"],\
             ["@strapi/helper-plugin", "virtual:93f417c8c15c8444d6a489787bfc1c0cace2d3ad85213b2df90a9c123bb8fe4eec09173728f9f49e997894c57b316058eedc9534727cda5c8ab676abc20d3ccd#npm:4.1.8"],\
-            ["strapi-ckeditor-build", "file:/N%3A/Programming/js/strapi-ckeditor-build#/N%3A/Programming/js/strapi-ckeditor-build::hash=db8dfc&locator=f4-ckeditor%40workspace%3A."]\
+            ["strapi-ckeditor-build", "https://github.com/kovansky/strapi-ckeditor-build.git#commit=8cc1482a494cf93bb6b3a08b3a0a3d518a772fdb"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1415,10 +1415,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["strapi-ckeditor-build", [\
-        ["file:/N%3A/Programming/js/strapi-ckeditor-build#/N%3A/Programming/js/strapi-ckeditor-build::hash=db8dfc&locator=f4-ckeditor%40workspace%3A.", {\
-          "packageLocation": "./.yarn/cache/strapi-ckeditor-build-file-d4edf9bc80-b7baef8c6a.zip/node_modules/strapi-ckeditor-build/",\
+        ["https://github.com/kovansky/strapi-ckeditor-build.git#commit=8cc1482a494cf93bb6b3a08b3a0a3d518a772fdb", {\
+          "packageLocation": "./.yarn/cache/strapi-ckeditor-build-https-4e304e18d0-e23f0ba8dc.zip/node_modules/strapi-ckeditor-build/",\
           "packageDependencies": [\
-            ["strapi-ckeditor-build", "file:/N%3A/Programming/js/strapi-ckeditor-build#/N%3A/Programming/js/strapi-ckeditor-build::hash=db8dfc&locator=f4-ckeditor%40workspace%3A."]\
+            ["strapi-ckeditor-build", "https://github.com/kovansky/strapi-ckeditor-build.git#commit=8cc1482a494cf93bb6b3a08b3a0a3d518a772fdb"]\
           ],\
           "linkType": "HARD"\
         }]\

@@ -568,7 +568,7 @@ __metadata:
   dependencies:
     "@ckeditor/ckeditor5-react": ^5.0.0
     "@strapi/helper-plugin": ^4.1.8
-    strapi-ckeditor-build: "N:\\Programming\\js\\strapi-ckeditor-build"
+    strapi-ckeditor-build: "https://github.com/kovansky/strapi-ckeditor-build.git#master"
   languageName: unknown
   linkType: soft
 
@@ -1024,10 +1024,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-ckeditor-build@file:N:\\Programming\\js\\strapi-ckeditor-build::locator=f4-ckeditor%40workspace%3A.":
+"strapi-ckeditor-build@https://github.com/kovansky/strapi-ckeditor-build.git#master":
   version: 0.0.1
-  resolution: "strapi-ckeditor-build@file:/N%3A/Programming/js/strapi-ckeditor-build#/N%3A/Programming/js/strapi-ckeditor-build::hash=db8dfc&locator=f4-ckeditor%40workspace%3A."
-  checksum: b7baef8c6af596d7d843286fff8270606a58ee261df659d986329f014f07a602c833c9e4d39776294d2b3109513258ba4cf3794b36b327830800d52a33ab7e87
+  resolution: "strapi-ckeditor-build@https://github.com/kovansky/strapi-ckeditor-build.git#commit=8cc1482a494cf93bb6b3a08b3a0a3d518a772fdb"
+  checksum: e23f0ba8dcc70e55d6c567510123144ab4ccd03ce3543fe5970832ecca86af75c3da09c0b1c1bb2cdd2eea29d832c1ef4e30fc26e484d23c3743557aa0cd7d2c
   languageName: node
   linkType: hard
 

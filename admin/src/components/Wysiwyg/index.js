@@ -6,6 +6,7 @@ import {Button} from "@strapi/design-system/Button";
 import {Typography} from "@strapi/design-system/Typography";
 import Landscape from "@strapi/icons/Landscape";
 import MediaLib from "../MediaLib";
+import PropTypes from "prop-types";
 
 const Wysiwyg = ({
                    name,
@@ -81,3 +82,32 @@ const Wysiwyg = ({
     </>
   );
 };
+
+Wysiwyg.defaultProps = {
+  name:        "",
+  value:       "",
+  initLabel:   "",
+  disabled:    false,
+  error:       undefined,
+  description: "",
+  required:    false
+};
+
+Wysiwyg.propTypes = {
+  name:        PropTypes.string.isRequired,
+  onChange:    PropTypes.func.isRequired,
+  value:       PropTypes.string,
+  initLabel:   PropTypes.shape({
+                                 id:             PropTypes.string,
+                                 defaultMessage: PropTypes.string
+                               }),
+  disabled:    PropTypes.bool,
+  error:       PropTypes.string,
+  description: PropTypes.shape({
+                                 id:             PropTypes.string,
+                                 defaultMessage: PropTypes.string
+                               }),
+  required:    PropTypes.bool
+};
+
+export default Wysiwyg;

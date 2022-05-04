@@ -10,7 +10,7 @@
   "dependencies": {
     "@ckeditor/ckeditor5-react": "^5.0.0",
     "@strapi/helper-plugin": "^4.1.8",
-    "strapi-ckeditor-build": "N:\\Programming\\js\\strapi-ckeditor-build"
+    "strapi-ckeditor-build": "https://github.com/kovansky/strapi-ckeditor-build.git#master"
   },
   "author": {
     "name": "A Strapi developer"
